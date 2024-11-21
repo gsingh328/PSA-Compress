@@ -1,0 +1,74 @@
+def forward(ctx, x, coefficients_vect, grid, zero_knot_indexes, size,
+            save_memory):
+
+    # First, we clamp the input to the range
+    # [leftmost coefficient, second righmost coefficient].
+    # We have to clamp, on the right, to the second righmost coefficient,
+    # so that we always have a coefficient to the right of x_clamped to
+    # compute its output. For the values outside the range,
+    # linearExtrapolations will add what remains to compute the final
+    # output of the activation, taking into account the slopes
+    # on the left and right.
+
+    # 2 op
+    x_clamped = x.clamp(min=-(grid.item() * (size // 2)),
+                        max=(grid.item() * (size // 2 - 1)))
+
+    # 2 op
+    floored_x = torch.floor(x_clamped / grid)  # left coefficient
+
+    # 2 op
+    fracs = x_clamped / grid - floored_x  # distance to left coefficient
+
+    # This gives the indexes (in coefficients_vect) of the left
+    # coefficients
+
+    # 1 op
+    indexes = (zero_knot_indexes.view(1, -1, 1, 1) + floored_x).long()
+
+    # Only two B-spline basis functions are required to compute the output
+    # (through linear interpolation) for each input in the B-spline range.
+
+    # 7 op
+    activation_output = coefficients_vect[indexes + 1] * fracs + \
+        coefficients_vect[indexes] * (1 - fracs)
+
+    ctx.save_memory = save_memory
+
+    if save_memory is False:
+        ctx.save_for_backward(fracs, coefficients_vect, indexes, grid)
+    else:
+        ctx.size = size
+        ctx.save_for_backward(x, coefficients_vect, grid,
+                              zero_knot_indexes)
+
+        # compute leftmost and rightmost slopes for linear extrapolations
+        # outside B-spline range
+        num_activations = x.size(1)
+        coefficients = coefficients_vect.view(num_activations, size)
+        leftmost_slope = (coefficients[:, 1] - coefficients[:, 0])\
+            .div(grid).view(1, -1, 1, 1)
+        rightmost_slope = (coefficients[:, -1] - coefficients[:, -2])\
+            .div(grid).view(1, -1, 1, 1)
+
+        # peform linear extrapolations outside B-spline range
+
+        # 4 op
+        leftExtrapolations = (x.detach() + grid * (size // 2))\
+            .clamp(max=0) * leftmost_slope
+
+        # 4 op
+        rightExtrapolations = (x.detach() - grid * (size // 2 - 1))\
+            .clamp(min=0) * rightmost_slope
+
+        # linearExtrapolations is zero for inputs inside B-spline range
+
+        # 1 op
+        linearExtrapolations = leftExtrapolations + rightExtrapolations
+
+        # add linear extrapolations to B-spline expansion
+
+        # 1 op
+        activation_output = activation_output + linearExtrapolations
+
+    return activation_output
