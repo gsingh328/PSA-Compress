@@ -1,0 +1,14 @@
+<root versionMajor = "1" versionMinor = "5">
+  <kernel name="krnl_resmlp" language="c" vlnv="xilinx.com:hls:krnl_resmlp:1.0" attributes="" hash="" preferredWorkGroupSizeMultiple="0" workGroupSize="1" debug="false" compileOptions="" profileType="none" hwControlProtocol="ap_ctrl_none">
+    <ports>
+      <port name="IN_R" mode="read_only" dataWidth="8" portType="stream"/>
+      <port name="OUT_R" mode="write_only" dataWidth="8" portType="stream"/>
+    </ports>
+    <args>
+      <arg id="0" name="in" addressQualifier="4" port="IN_R" hostOffset="0x0" hostSize="0x8" offset="0x0" size="0x0" type="stream&lt;ap_int&lt;8&gt;, 0&gt;&amp;" origName="in" origUse="variable"/>
+      <arg id="1" name="out" addressQualifier="4" port="OUT_R" hostOffset="0x0" hostSize="0x8" offset="0x0" size="0x0" type="stream&lt;ap_int&lt;8&gt;, 0&gt;&amp;" origName="out" origUse="variable"/>
+    </args>
+    <compileWorkGroupSize x="1" y="1" z="1"/>
+    <maxWorkGroupSize x="1" y="1" z="1"/>
+  </kernel>
+</root>

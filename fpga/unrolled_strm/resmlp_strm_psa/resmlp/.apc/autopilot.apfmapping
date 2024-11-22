@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="quant_params.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/quant_params.h"/>
+    <originFiles name="resmlp.cpp" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp.cpp"/>
+    <originFiles name="resmlp.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp.h"/>
+    <originFiles name="resmlp_block_macros.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp_block_macros.h"/>
+    <originFiles name="resmlp_blocks.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp_blocks.h"/>
+    <originFiles name="resmlp_extra_layers.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp_extra_layers.h"/>
+    <originFiles name="resmlp_mlp.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp_mlp.h"/>
+    <originFiles name="resmlp_model.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp_model.h"/>
+    <originFiles name="resmlp_token_mixer.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp_token_mixer.h"/>
+    <originFiles name="resmlp_types.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp_types.h"/>
+    <originFiles name="resmlp_utils.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/resmlp_utils.h"/>
+  </source>
+  <testbench>
+    <originFiles name="cifar10_tb.cpp" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/cifar10_tb.cpp"/>
+    <originFiles name="quant_samples.h" path="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm_with_psa/quant_samples.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
