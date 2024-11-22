@@ -14,13 +14,13 @@ export CUBLAS_WORKSPACE_CONFIG=:4096:8
 
 PARENT_FOLDER="resmlp_layers_2_h_4_embed_64"
 
-# TEACHER_MODEL="./output/${DATASET}/${PARENT_FOLDER}/teacher_model.bin"
+TEACHER_MODEL="./output/${DATASET}/${PARENT_FOLDER}/teacher_model.bin"
 # TEACHER_MODEL="./output/${DATASET}/${PARENT_FOLDER}/teacher_model_gelu.bin"
-TEACHER_MODEL="./output/${DATASET}/${PARENT_FOLDER}/teacher_model_silu.bin"
+# TEACHER_MODEL="./output/${DATASET}/${PARENT_FOLDER}/teacher_model_silu.bin"
 
-# OUTPUT_FOLDER="./output/${DATASET}/${PARENT_FOLDER}/baseline"
+OUTPUT_FOLDER="./output/${DATASET}/${PARENT_FOLDER}/baseline"
 # OUTPUT_FOLDER="./output/${DATASET}/${PARENT_FOLDER}/baseline_gelu"
-OUTPUT_FOLDER="./output/${DATASET}/${PARENT_FOLDER}/baseline_silu"
+# OUTPUT_FOLDER="./output/${DATASET}/${PARENT_FOLDER}/baseline_silu"
 
 mkdir -p ${OUTPUT_FOLDER}
 

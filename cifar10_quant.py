@@ -160,7 +160,7 @@ def test(test_model, loader):
 
 if args.load is not None:
     print(f'Loading model from: {args.load}')
-    model.load_state_dict(torch.load(args.load))
+    model.load_state_dict(torch.load(args.load, weights_only=True))
     model = model.to(device)
     print(model)
 
@@ -262,7 +262,7 @@ if args.qat:
         assert args.teacher_load is not None
         print(f'Loading model: {args.teacher_load}')
         # teacher_model = torch.load(args.teacher_load).to(device)
-        teacher_model.load_state_dict(torch.load(args.teacher_load), strict=True)
+        teacher_model.load_state_dict(torch.load(args.teacher_load, weights_only=True), strict=True)
         print('Teacher Model Accuracy:')
         test(teacher_model, test_loader)
 

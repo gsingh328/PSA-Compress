@@ -547,7 +547,7 @@ def setup_quantizer(model, layers_to_quantize, dataloader, split_size, quant_con
 
     if load_path is not None:
         print('Loading from custom path: {}'.format(load_path))
-        tmp_dct = torch.load(load_path)
+        tmp_dct = torch.load(load_path, weights_only=True)
         model.load_state_dict(tmp_dct, strict=False)
 
     if find_activation_ranges:

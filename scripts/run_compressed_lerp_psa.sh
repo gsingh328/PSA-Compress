@@ -20,7 +20,7 @@ mkdir -p ${OUTPUT_FOLDER}
 python ${SCRIPT} --dataset-dir ${DATASET_DIR} ${DATASET_DOWNLOAD_FLAG} \
 --teacher-load $TEACHER_MODEL --do-kt --do-kd --student-hidden-factor 2 --student-nl-act psa \
 --disable-tqdm \
---save "${OUTPUT_FOLDER}/h_mul_2_model.bin" > "${OUTPUT_FOLDER}/h_mul_2_log.txt" &
+--save "${OUTPUT_FOLDER}/h_mul_2_model.bin" > "${OUTPUT_FOLDER}/h_mul_2_log.txt"
 
 python ${SCRIPT} --dataset-dir ${DATASET_DIR} ${DATASET_DOWNLOAD_FLAG} \
 --teacher-load $TEACHER_MODEL --do-kt --do-kd --student-hidden-factor 1 --student-nl-act psa \
@@ -30,7 +30,7 @@ python ${SCRIPT} --dataset-dir ${DATASET_DIR} ${DATASET_DOWNLOAD_FLAG} \
 python ${SCRIPT} --dataset-dir ${DATASET_DIR} ${DATASET_DOWNLOAD_FLAG} \
 --teacher-load $TEACHER_MODEL --do-kt --do-kd --student-hidden-factor 0.5 --student-nl-act psa \
 --disable-tqdm \
---save "${OUTPUT_FOLDER}/h_div_2_model.bin" > "${OUTPUT_FOLDER}/h_div_2_log.txt" &
+--save "${OUTPUT_FOLDER}/h_div_2_model.bin" > "${OUTPUT_FOLDER}/h_div_2_log.txt"
 
 python ${SCRIPT} --dataset-dir ${DATASET_DIR} ${DATASET_DOWNLOAD_FLAG} \
 --teacher-load $TEACHER_MODEL --do-kt --do-kd --student-hidden-factor 0.25 --student-nl-act psa \

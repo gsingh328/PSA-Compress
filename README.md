@@ -182,3 +182,7 @@ The training scripts will assume this directory structure should look like this:
 ```
 
 ## 3. Hardware - FPGA Accelerators
+
+## Acknowledgments
+
+This work was supported in part by the Cisco Systems, Inc. under Grant 1085913, and in part by the National Science Foundation under Grant PFI-TT 2016390.

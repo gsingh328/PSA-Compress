@@ -170,7 +170,7 @@ def test(model, epoch):
 
 if args.teacher_load is not None:
     print(f'Loading model: {args.teacher_load}')
-    teacher_model.load_state_dict(torch.load(args.teacher_load), strict=True)
+    teacher_model.load_state_dict(torch.load(args.teacher_load, weights_only=True))
     test(teacher_model, 0)
 elif args.do_kd or args.do_kt:
     print('No teacher model found, but doing kd or kt!')
@@ -209,7 +209,7 @@ if args.do_kt:
     print('=' * 100)
     if args.kt_load is not None:
         print(f'Loading Knowledge-Transfered model: {args.kt_load}')
-        student_model = torch.load(args.kt_load)
+        student_model.load_state_dict(torch.load(args.kt_load, weights_only=True))
     else:
         # Copy Embedding
         with torch.no_grad():

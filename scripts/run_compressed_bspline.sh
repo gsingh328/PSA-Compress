@@ -22,12 +22,12 @@ mkdir -p ${OUTPUT_FOLDER}
 python ${SCRIPT} --dataset-dir ${DATASET_DIR} ${DATASET_DOWNLOAD_FLAG} \
 --teacher-load $TEACHER_MODEL --do-kt --do-kd --student-hidden-factor 2 --student-nl-act bspline \
 --disable-tqdm --bspline-lambda ${BSPLINE_LAMBDA} \
---save "${OUTPUT_FOLDER}/h_mul_2_model.bin" > "${OUTPUT_FOLDER}/h_mul_2_log.txt" &
+--save "${OUTPUT_FOLDER}/h_mul_2_model.bin" > "${OUTPUT_FOLDER}/h_mul_2_log.txt"
 
 python ${SCRIPT} --dataset-dir ${DATASET_DIR} ${DATASET_DOWNLOAD_FLAG} \
 --teacher-load $TEACHER_MODEL --do-kt --do-kd --student-hidden-factor 1 --student-nl-act bspline \
 --disable-tqdm --bspline-lambda ${BSPLINE_LAMBDA} \
---save "${OUTPUT_FOLDER}/h_mul_1_model.bin" > "${OUTPUT_FOLDER}/h_mul_1_log.txt" &
+--save "${OUTPUT_FOLDER}/h_mul_1_model.bin" > "${OUTPUT_FOLDER}/h_mul_1_log.txt"
 
 python ${SCRIPT} --dataset-dir ${DATASET_DIR} ${DATASET_DOWNLOAD_FLAG} \
 --teacher-load $TEACHER_MODEL --do-kt --do-kd --student-hidden-factor 0.5 --student-nl-act bspline \
