@@ -7,8 +7,9 @@
 #define SEQ_N 64
 #define SEQ_N_LG2 6
 #define EMBED_N 96
-//#define HIDDEN_N 96
-#define HIDDEN_N 192
+
+#define HIDDEN_N 96
+//#define HIDDEN_N 192
 
 #define PSA_LUT_N 256
 #define PSA_IDX_OFFSET 128

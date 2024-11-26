@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="accel_common.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/accel_common.h"/>
-    <originFiles name="dma_utils.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/dma_utils.h"/>
-    <originFiles name="ld_buffer_tasks.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/ld_buffer_tasks.h"/>
-    <originFiles name="pool.cpp" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/pool.cpp"/>
-    <originFiles name="pool.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/pool.h"/>
-    <originFiles name="processor.cpp" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/processor.cpp"/>
-    <originFiles name="processor.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/processor.h"/>
-    <originFiles name="quant_params.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/quant_params.h"/>
-    <originFiles name="quant_samples.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/quant_samples.h"/>
-    <originFiles name="resmlp.cpp" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp.cpp"/>
-    <originFiles name="resmlp.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp.h"/>
-    <originFiles name="resmlp_common.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_common.h"/>
-    <originFiles name="resmlp_crosschannel.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_crosschannel.h"/>
-    <originFiles name="resmlp_crosschannel_layer.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_crosschannel_layer.h"/>
-    <originFiles name="resmlp_crosspatch.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_crosspatch.h"/>
-    <originFiles name="resmlp_crosspatch_layer.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_crosspatch_layer.h"/>
-    <originFiles name="resmlp_embed.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_embed.h"/>
-    <originFiles name="resmlp_input_layer.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_input_layer.h"/>
-    <originFiles name="resmlp_model.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_model.h"/>
-    <originFiles name="resmlp_outpool.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_outpool.h"/>
-    <originFiles name="resmlp_output_layer.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_output_layer.h"/>
-    <originFiles name="utils.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/utils.h"/>
+    <originFiles name="accel_common.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/accel_common.h"/>
+    <originFiles name="dma_utils.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/dma_utils.h"/>
+    <originFiles name="ld_buffer_tasks.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/ld_buffer_tasks.h"/>
+    <originFiles name="pool.cpp" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/pool.cpp"/>
+    <originFiles name="pool.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/pool.h"/>
+    <originFiles name="processor.cpp" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/processor.cpp"/>
+    <originFiles name="processor.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/processor.h"/>
+    <originFiles name="quant_params.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/quant_params.h"/>
+    <originFiles name="quant_samples.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/quant_samples.h"/>
+    <originFiles name="resmlp.cpp" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp.cpp"/>
+    <originFiles name="resmlp.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp.h"/>
+    <originFiles name="resmlp_common.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_common.h"/>
+    <originFiles name="resmlp_crosschannel.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_crosschannel.h"/>
+    <originFiles name="resmlp_crosschannel_layer.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_crosschannel_layer.h"/>
+    <originFiles name="resmlp_crosspatch.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_crosspatch.h"/>
+    <originFiles name="resmlp_crosspatch_layer.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_crosspatch_layer.h"/>
+    <originFiles name="resmlp_embed.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_embed.h"/>
+    <originFiles name="resmlp_input_layer.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_input_layer.h"/>
+    <originFiles name="resmlp_model.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_model.h"/>
+    <originFiles name="resmlp_outpool.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_outpool.h"/>
+    <originFiles name="resmlp_output_layer.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_output_layer.h"/>
+    <originFiles name="utils.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/utils.h"/>
   </source>
   <testbench>
-    <originFiles name="resmlp_top.cpp" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/resmlp_top.cpp"/>
-    <originFiles name="tb_helper.h" path="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed/tb_helper.h"/>
+    <originFiles name="resmlp_top.cpp" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_top.cpp"/>
+    <originFiles name="tb_helper.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/tb_helper.h"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

@@ -6,8 +6,13 @@
 #include "resmlp_blocks.h"
 #include "resmlp_extra_layers.h"
 
- #include "quant_params.h"
-//#include "quant_params_h_mul_1.h"
+#if(HIDDEN_N==192)
+#include "quant_params.h"
+#endif
+
+#if(HIDDEN_N==96)
+#include "quant_params_h_mul_1.h"
+#endif
 
 
 // Wrapper functions for dataflow

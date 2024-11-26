@@ -40,5 +40,5 @@ config_rtl -register_reset_num 3
 source "./resmlp/solution1/directives.tcl"
 csim_design -clean
 csynth_design
-cosim_design
+cosim_design -tool xsim
 export_design -flow impl -rtl verilog -format ip_catalog

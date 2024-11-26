@@ -57,11 +57,15 @@
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
+                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/unrolled/resmlp"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/include/etc"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                     									
@@ -70,8 +74,6 @@
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                     								
                                 </option>
                                 								
@@ -103,11 +105,15 @@
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
+                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/unrolled/resmlp"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/include/etc"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                     									
@@ -116,8 +122,6 @@
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                     								
                                 </option>
                                 								
@@ -197,11 +201,11 @@
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                 								
-                                <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm"/>
-                                								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline"/>
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                 							
@@ -219,7 +223,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding=".apc|.reference|.settings|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding=".apc|.settings|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
@@ -285,11 +289,15 @@
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
+                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/unrolled/resmlp"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/include/etc"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                     									
@@ -298,8 +306,6 @@
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                     								
                                 </option>
                                 								
@@ -321,11 +327,15 @@
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
+                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/unrolled/resmlp"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/include/etc"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                     									
@@ -334,8 +344,6 @@
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                     								
                                 </option>
                                 								
@@ -405,11 +413,11 @@
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                 								
-                                <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm"/>
-                                								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline"/>
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                 							
@@ -427,7 +435,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding=".apc|.reference|.settings|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding=".apc|.settings|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				

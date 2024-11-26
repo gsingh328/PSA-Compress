@@ -29,97 +29,97 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp/.apc/.src</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp/.apc/.tb</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp/.apc/.tb</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp/solution1/.tcls</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>source/quant_params.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/quant_params.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/quant_params.h</location>
 		</link>
 		<link>
 			<name>source/resmlp.cpp</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp.cpp</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp.cpp</location>
 		</link>
 		<link>
 			<name>source/resmlp.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp.h</location>
 		</link>
 		<link>
 			<name>source/resmlp_block_macros.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp_block_macros.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp_block_macros.h</location>
 		</link>
 		<link>
 			<name>source/resmlp_blocks.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp_blocks.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp_blocks.h</location>
 		</link>
 		<link>
 			<name>source/resmlp_extra_layers.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp_extra_layers.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp_extra_layers.h</location>
 		</link>
 		<link>
 			<name>source/resmlp_mlp.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp_mlp.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp_mlp.h</location>
 		</link>
 		<link>
 			<name>source/resmlp_model.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp_model.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp_model.h</location>
 		</link>
 		<link>
 			<name>source/resmlp_token_mixer.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp_token_mixer.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp_token_mixer.h</location>
 		</link>
 		<link>
 			<name>source/resmlp_types.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp_types.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp_types.h</location>
 		</link>
 		<link>
 			<name>source/resmlp_utils.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp_utils.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp_utils.h</location>
 		</link>
 		<link>
 			<name>testbench/cifar10_tb.cpp</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/cifar10_tb.cpp</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/cifar10_tb.cpp</location>
 		</link>
 		<link>
 			<name>testbench/quant_samples.h</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/quant_samples.h</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/quant_samples.h</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp/solution1/solution1.directive</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp/solution1/directives.tcl</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>/media/SSD2/hls_projects/fpt24/unrolled/resmlp_strm/resmlp/solution1/script.tcl</location>
+			<location>/home/singh431/Projects/PSA-Compress/fpga/unrolled_strm/resmlp_strm_baseline/resmlp/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

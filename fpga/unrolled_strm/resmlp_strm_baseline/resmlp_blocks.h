@@ -4,8 +4,13 @@
 #include "resmlp.h"
 #include "resmlp_block_macros.h"
 
+#if(HIDDEN_N==192)
 #include "quant_params.h"
-//#include "quant_params_h_mul_1.h"
+#endif
+
+#if(HIDDEN_N==96)
+#include "quant_params_h_mul_1.h"
+#endif
 
 
 void resmlp_blocks(

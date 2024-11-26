@@ -3,12 +3,15 @@
 
 #include "resmlp.h"
 
+#if(HIDDEN_N==192)
+#include "quant_samples.h"
+#include "quant_samples_extra.h"
+#endif
 
-//#include "quant_samples_h_mul_1.h"
-//#include "quant_samples_extra_h_mul_1.h"
-
- #include "quant_samples.h"
- #include "quant_samples_extra.h"
+#if(HIDDEN_N==96)
+#include "quant_samples_h_mul_1.h"
+#include "quant_samples_extra_h_mul_1.h"
+#endif
 
 #include <hls_stream.h>
 
