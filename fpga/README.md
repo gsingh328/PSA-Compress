@@ -33,7 +33,7 @@ Based on this setting, the appropriate header files will be imported in both the
 
 For the LERP-PSA implementation, the relevant HLS project is `resmlp_fixed_psa`. There is no hidden size configuration, only a hidden size is 96 currently written.
 
-For measuring throughput, use Co-Sim and measure the min-II of the `write_data` tasks:
+Since this accelerator is written as a free-running kernel, to measure the throughput, use Co-Sim and measure the min-II of the `write_data` tasks:
 
 | Activation | Hidden Size | Accuracy | II | Throughput |
 | -------- | -------- | -------- | ------- | ------- |
@@ -44,17 +44,18 @@ For measuring throughput, use Co-Sim and measure the min-II of the `write_data` 
 The timeline trace can be used separately to verify that this min-II is repeated across the batch of image of size 8, except the first image when the pipeline of the accelerator needs to filled.
 
 ## Fixed SIMD
+
 The relevant Vitis HLS projects are:
 - resmlp_fixed_baseline
 - resmlp_fixed_psa
 
-For the `resmlp_fixed_baseline` project, you can change the hidden size by modifying `#define HIDDEN_N` in `resmlp.h`. There are two valid configurations supported that commented/uncommented based on what hidden size you want to test:
+For the `resmlp_fixed_baseline` project, you can change the hidden size by modifying `#define MAX_I_DIM` in `accel_common.h`. There are two valid configurations supported that commented/uncommented based on what hidden size you want to test:
 
 ```C++
-//#define HIDDEN_N 96
-#define HIDDEN_N 192
+//#define MAX_I_DIM 96
+#define MAX_I_DIM 192
 ```
-Based on this setting, the appropriate header files will be imported in both the testbench (for testing input/output) and in the accelerator (for setting up the parameters).
+Based on this setting, the appropriate header files will be imported in the testbench (for both testing input/output and for the parameters that are transferred through DRAM).
 
 For the LERP-PSA implementation, the relevant HLS project is `resmlp_fixed_psa`. There is no hidden size configuration, only a hidden size is 96 currently written.
 
@@ -62,7 +63,7 @@ Both projects are setup to run a single image at a time. So, for measuring throu
 
 | Activation | Hidden Size | Accuracy | Latency | Throughput |
 | -------- | -------- | -------- | ------- | ------- |
-| ReLU | 192 | 87.9 |  |  |
-| ReLU | 96 | 86.1 |  |  |
-| LERP-PSA | 96 | 88.1 |  |  |
+| ReLU | 192 | 87.9 | 47681 | 4195 |
+| ReLU | 96 | 86.1 | 29215 | 6846 |
+| LERP-PSA | 96 | 88.1 | 29441 |  |
 
