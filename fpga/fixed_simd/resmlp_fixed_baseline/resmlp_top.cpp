@@ -16,13 +16,13 @@
 #if(MAX_I_DIM==192)
 #include "params/h_mul_2/quant_params.h"
 #include "params/h_mul_2/quant_samples.h"
-// #include "params/h_mul_2/quant_samples_extra.h"
+//#include "params/h_mul_2/quant_samples_extra.h"
 #endif
 
 #if(MAX_I_DIM==96)
 #include "params/h_mul_1/quant_params.h"
 #include "params/h_mul_1/quant_samples.h"
-// #include "params/h_mul_1/quant_samples_extra.h"
+//#include "params/h_mul_1/quant_samples_extra.h"
 #endif
 
 

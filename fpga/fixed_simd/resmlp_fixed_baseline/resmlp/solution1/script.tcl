@@ -13,8 +13,6 @@ add_files pool.cpp
 add_files pool.h
 add_files processor.cpp
 add_files processor.h
-add_files quant_params.h
-add_files quant_samples.h
 add_files resmlp.cpp
 add_files resmlp.h
 add_files resmlp_common.h
@@ -38,7 +36,7 @@ config_cosim -tool xsim
 config_interface -m_axi_alignment_byte_size 64 -m_axi_latency 64 -m_axi_max_widen_bitwidth 512
 config_rtl -register_reset_num 3
 source "./resmlp/solution1/directives.tcl"
-csim_design -clean
+csim_design
 csynth_design
-cosim_design -tool xsim
+cosim_design
 export_design -flow impl -rtl verilog -format ip_catalog

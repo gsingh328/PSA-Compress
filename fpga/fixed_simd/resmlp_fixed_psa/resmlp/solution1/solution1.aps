@@ -51,13 +51,19 @@
         <Format formatName="pcore" use_netlist="none"/>
         <Format formatName="xo"/>
     </ExportDesign>
-    <Simulation argv="">
-        <SimFlow askAgain="true" clangSanitizer="false" compile="false" compileChoice="gcc" disableDeadlockDetect="false" dumpTrace="none" enableDataflowProfiling="false" enableFifoSizing="false" name="cosim" optimizeCompile="false" random_stall="false" reduce_diskspace="false" setup="false" toolName="xsim" waveDebug="false" ldflags="" mflags="" compiledLibrary="">
+    <Simulation>
+        <SimFlow askAgain="true" clangSanitizer="false" compile="false" compileChoice="gcc" disableDeadlockDetect="false" dumpTrace="none" enableDataflowProfiling="false" enableFifoSizing="false" name="cosim" optimizeCompile="false" random_stall="false" reduce_diskspace="false" setup="false" toolName="Auto" waveDebug="false">
             <Rtl active="false" name="systemc"/>
             <Rtl active="true" name="verilog"/>
             <Rtl active="false" name="vhdl"/>
         </SimFlow>
     </Simulation>
+    <name>
+        <value string="solution1"/>
+    </name>
+    <project>
+        <value string="resmlp"/>
+    </project>
     <flowTarget value="vitis"/>
     <targetInfo>
         <TargetInfo value="xc7k160t:-ffv676:-1"/>
@@ -68,11 +74,5 @@
     <clockList>
         <clock name="default" default="false" period="5"/>
     </clockList>
-    <name>
-        <value string="solution1"/>
-    </name>
-    <project>
-        <value string="resmlp"/>
-    </project>
 </solution>
 

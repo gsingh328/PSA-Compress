@@ -7,8 +7,15 @@
 #define RESMLP_IN_DIM_1 64
 
 #define RESMLP_EMBED_DIM 96
-// #define RESMLP_HIDDEN_DIM 96
+
+#if(MAX_I_DIM==192)
 #define RESMLP_HIDDEN_DIM 192
+#endif
+
+#if(MAX_I_DIM==96)
+#define RESMLP_HIDDEN_DIM 96
+#endif
+
 
 #define RESMLP_OUT_DIM_0 10
 #define RESMLP_OUT_DIM_1 1

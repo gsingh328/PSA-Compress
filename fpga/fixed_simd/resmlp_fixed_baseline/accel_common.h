@@ -11,7 +11,7 @@
 #define MAX_B_DIM_LG2 6
 #define MAX_B_DIM 64
 
-// #define MAX_I_DIM 96
+//#define MAX_I_DIM 96
 #define MAX_I_DIM 192
 
 // Default datatype used for all dimensions and index calculations

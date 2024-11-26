@@ -8,8 +8,6 @@
     <file name="pool.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
     <file name="processor.cpp" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
     <file name="processor.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
-    <file name="quant_params.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
-    <file name="quant_samples.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
     <file name="resmlp.cpp" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
     <file name="resmlp.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
     <file name="resmlp_common.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
@@ -33,6 +31,6 @@
   <includePaths/>
   <libraryPaths/>
   <Simulation>
-    <SimFlow name="csim" clean="true" csimMode="0" lastCsimMode="0"/>
+    <SimFlow name="csim" csimMode="0" lastCsimMode="0"/>
   </Simulation>
 </project>

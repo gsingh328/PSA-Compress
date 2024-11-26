@@ -55,17 +55,19 @@
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed"/>
-                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_psa"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed"/>
+                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/singh431/hls_projects/resmlp"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                     								
                                 </option>
                                 								
@@ -95,17 +97,19 @@
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed"/>
-                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_psa"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed"/>
+                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/singh431/hls_projects/resmlp"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                     								
                                 </option>
                                 								
@@ -185,7 +189,7 @@
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                 								
-                                <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed_with_psa"/>
+                                <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_psa"/>
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                 							
@@ -267,17 +271,19 @@
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed"/>
-                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_psa"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed"/>
+                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/singh431/hls_projects/resmlp"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                     								
                                 </option>
                                 								
@@ -297,17 +303,19 @@
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include/ap_sysc"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed"/>
-                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_psa"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed"/>
+                                    									
                                     <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/singh431/hls_projects/resmlp"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                     								
                                 </option>
                                 								
@@ -377,7 +385,7 @@
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/include"/>
                                 								
-                                <listOptionValue builtIn="false" value="/media/SSD2/hls_projects/fpt24/fixed/resmlp_fixed_with_psa"/>
+                                <listOptionValue builtIn="false" value="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_psa"/>
                                 								
                                 <listOptionValue builtIn="false" value="/media/SSD2/tools/Xilinx/Vitis_HLS/2023.1/lnx64/tools/systemc/include"/>
                                 							

@@ -8,8 +8,6 @@
     <originFiles name="pool.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/pool.h"/>
     <originFiles name="processor.cpp" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/processor.cpp"/>
     <originFiles name="processor.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/processor.h"/>
-    <originFiles name="quant_params.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/quant_params.h"/>
-    <originFiles name="quant_samples.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/quant_samples.h"/>
     <originFiles name="resmlp.cpp" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp.cpp"/>
     <originFiles name="resmlp.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp.h"/>
     <originFiles name="resmlp_common.h" path="/home/singh431/Projects/PSA-Compress/fpga/fixed_simd/resmlp_fixed_baseline/resmlp_common.h"/>
