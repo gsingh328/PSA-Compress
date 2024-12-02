@@ -65,5 +65,8 @@ Both projects are setup to run a single image at a time. So, for measuring throu
 | -------- | -------- | -------- | ------- | ------- |
 | ReLU | 192 | 87.9 | 47681 | 4195 |
 | ReLU | 96 | 86.1 | 29215 | 6846 |
-| LERP-PSA | 96 | 88.1 | 29441 |  |
+| LERP-PSA | 96 | 88.1 | 29441 | 6793 |
 
+## Acknowledgments
+
+This work was supported in part by the Cisco Systems, Inc. under Grant 1085913, and in part by the National Science Foundation under Grant PFI-TT 2016390.

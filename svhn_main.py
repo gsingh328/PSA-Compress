@@ -168,7 +168,7 @@ def test(model, epoch):
             correct += predicted.eq(targets).sum().item()
 
         print("[{}] Loss: {:.2f}".format(epoch, test_loss))
-        print("[{}] Accuray: {:.2f}".format(epoch, correct/total*100.))
+        print("[{}] Accuracy: {:.2f}".format(epoch, correct/total*100.))
 
 
 if args.teacher_load is not None:

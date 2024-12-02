@@ -39,7 +39,6 @@ mkdir -p ${SAVE_FOLDER}
 #     --weight-bits ${WEIGHT_BITS} \
 #     --bias-bits ${WEIGHT_BITS} \
 #     --output-bits ${ACT_BITS} \
-#     --dump-params \
 #     --qat \
 #     --do-kd \
 #     --teacher-load ${TEACHER_MODEL} \
@@ -61,7 +60,6 @@ python ${SCRIPT} \
     --weight-bits ${WEIGHT_BITS} \
     --bias-bits ${WEIGHT_BITS} \
     --output-bits ${ACT_BITS} \
-    --dump-params \
     --qat \
     --do-kd \
     --teacher-load ${TEACHER_MODEL} \

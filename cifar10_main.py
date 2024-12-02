@@ -41,6 +41,7 @@ parser.add_argument('--student-resnet', action='store_true', default=False)
 parser.add_argument('--student-nl-act', type=str, choices=['psa','bspline', 'base'], default='psa')
 parser.add_argument('--student-hidden-factor', default=4., type=float)
 parser.add_argument('--bspline-lambda', default=1e-5, type=float)
+parser.add_argument('--test-only', action='store_true', default=False)
 parser.add_argument('--save', default=None, type=str)
 parser.add_argument('--seed', type=int, default=2023)
 parser.add_argument('--nondeter', action='store_true', default=False)
@@ -165,13 +166,15 @@ def test(model, epoch):
             correct += predicted.eq(targets).sum().item()
 
         print("[{}] Loss: {:.2f}".format(epoch, test_loss))
-        print("[{}] Accuray: {:.2f}".format(epoch, correct/total*100.))
+        print("[{}] Accuracy: {:.2f}".format(epoch, correct/total*100.))
 
 
 if args.teacher_load is not None:
     print(f'Loading model: {args.teacher_load}')
     teacher_model.load_state_dict(torch.load(args.teacher_load, weights_only=True))
     test(teacher_model, 0)
+    if args.test_only:
+        exit(0)
 elif args.do_kd or args.do_kt:
     print('No teacher model found, but doing kd or kt!')
     exit(1)

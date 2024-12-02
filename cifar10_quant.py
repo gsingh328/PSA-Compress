@@ -153,7 +153,7 @@ def test(test_model, loader):
             total += targets.size(0)
             correct += predicted.eq(targets).sum().item()
 
-        print("Accuray: {:.2f}".format(correct/total*100.))
+        print("Accuracy: {:.2f}".format(correct/total*100.))
 
     return correct/total
 
