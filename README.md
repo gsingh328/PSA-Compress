@@ -5,7 +5,21 @@ This directory serves as a way to re-create the results from our article - _"Com
 If you have used our work, please cite our paper:
 
 ```
-TODO: Add Citation Bib
+@article{10.1145/3705926,
+author = {Singh, Gaurav and Bazargan, Kia},
+title = {Compressing Neural Networks Using Learnable 1-D Non-Linear Functions},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1936-7406},
+url = {https://doi.org/10.1145/3705926},
+doi = {10.1145/3705926},
+abstract = {As deep learning models grow in size to achieve state-of-the-art accuracy, there is a pressing need for compact models. To address this challenge, we introduce a novel operation called Personal Self-Attention (PSA). It is specifically designed to learn non-linear 1-D functions, enhancing existing spline-based methods while remaining compatible with gradient backpropagation. By integrating these non-linear functions with linear transformations, we can achieve the accuracy of larger models but with significantly smaller hidden dimensions, which is crucial for FPGA implementations.We evaluate PSA by implementing it in a Multi-Layer Perceptron (MLP)-based vision model, ResMLP, and testing it on the CIFAR-10 classification task. MLP is gaining increasing popularity due to its widespread use in large-language models. Our results confirm that PSA achieves equivalent accuracy with a 2x smaller hidden size compared to conventional MLPs. Furthermore, by quantizing our non-linear function into a simple lookup table, we reduce the number of operations required by 45\%-28\%, which offers significant benefits for hardware accelerators. To showcase this, we design an end-to-end unrolled streaming accelerator for ResMLP, demonstrating that our compressed model maintains an 88\% accuracy while reducing LUT + DSP resource requirements by 25\%, and doubling throughput to 32kFPS. Additionally, we implement a fixed-size SIMD accelerator for the same compressed model that achieves a 62.1\% improvement in throughput while only consuming 3.5\% extra LUTs.},
+note = {Just Accepted},
+journal = {ACM Trans. Reconfigurable Technol. Syst.},
+month = dec,
+keywords = {FPGA accelerator, neural networks, model compression, non-linear functions, paramaterized activation function, lookup table}
+}
 ```
 
 ## Requirements
