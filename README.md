@@ -1,5 +1,7 @@
 # Compressing Neural Networks Using Learnable 1-D Non-Linear Functions
 
+Authors: Gaurav Singh and Kia Bazargan
+
 This directory serves as a way to re-create the results from our article - _"Compressing Neural Networks Using Learnable 1-D Non-Linear Functions"_.
 
 If you have used our work, please cite our paper:
